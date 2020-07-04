@@ -1,5 +1,5 @@
 import React from 'react';
-import hakkinda from "../file/hakkinda.jpg";
+
 
 export default function About() {
     return (

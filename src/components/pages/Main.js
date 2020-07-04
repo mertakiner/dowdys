@@ -3,6 +3,7 @@ import img1 from '../file/img1.jpg';
 import img2 from '../file/img2.jpg';
 import img3 from '../file/img3.jpg';
 import img4 from '../file/img4.jpg';
+import hakkinda from "../file/hakkinda.jpg";
 import '../styles/Main.css';
 
 class Main extends Component {
@@ -27,18 +28,25 @@ class Main extends Component {
 
     render() {
         return (
-            <div className="container main">
-                
-                {this.state.data.map((item) => (
-                    <div key={item.id} className="card image" style={{width: "18rem"}}>
-                        <img src={item.img} className="card-img-top" alt="..."/>
-                        <div className="card-body">
-                        <p className="card-text">{item.title}</p>
+            <div>
+                <div className="container main">
+                    
+                    {this.state.data.map((item) => (
+                        <div key={item.id} className="card image" style={{width: "18rem"}}>
+                            <img src={item.img} className="card-img-top" alt="..."/>
+                            <div className="card-body">
+                            <p className="card-text">{item.title}</p>
+                            </div>
                         </div>
-                    </div>
 
-                ))}
-                
+                    ))}
+                    
+                </div>
+                <div id="about" className="container about">
+                        <img src={hakkinda} className="card-img-top" alt="..."/>
+                        <p className="card-text">KALİTEEEEE - MARKAAAAA</p>
+                </div>
+
             </div>
         )
     }

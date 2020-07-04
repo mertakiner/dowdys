@@ -21,7 +21,7 @@ export default function Header() {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="/about">
+              <a class="nav-link" href="#about">
                 Hakkımızda <span class="sr-only">(current)</span>
               </a>
             </li>

@@ -1,0 +1,23 @@
+.main {
+    margin-top: 80px;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 12;
+    justify-content: space-evenly;
+
+}
+
+.card {
+    border: none;
+}
+
+.card-img-top {
+    border-radius: 0rem;
+}
+
+.about {
+    margin-top: 80px;
+    margin-bottom: 10vh;
+}

@@ -4,6 +4,21 @@ import img2 from "../file/img2.jpg";
 import img3 from "../file/img3.jpg";
 import img4 from "../file/img4.jpg";
 import img5 from "../file/Mayi.jpg";
+import img6 from "../file/Gastronometro1.jpg";
+import img19 from "../file/Gastronometro2.jpg";
+import img7 from "../file/Kombucha1.jpg";
+import img18 from "../file/Kombucha2.jpg";
+import img8 from "../file/Lafabrika1.jpg";
+import img17 from "../file/Lafabrika2.jpg";
+import img9 from "../file/Livetobloom1.jpg";
+import img13 from "../file/Livetobloom2.jpg";
+import img10 from "../file/Mayi1.jpg";
+import img16 from "../file/Mayi2.jpg";
+import img11 from "../file/Metro1.jpg";
+import img14 from "../file/Metro2.jpg";
+import img12 from "../file/Po1.jpg";
+import img15 from "../file/Po2.jpg";
+
 import hakkinda from "../file/hakkinda.jpg";
 import logo from "../file/Artboard.jpg";
 import "../styles/Main.css";
@@ -15,14 +30,22 @@ class Main extends Component {
       { id: 2, img: img2, title: "Sjorinn", date: "Temmuz 2020" },
       { id: 3, img: img3, title: "The Simco", date: "Mart 2020" },
       { id: 4, img: img4, title: "Hande Akıner", date: "Mart 2020" },
-      { id: 5, img: img5, title: "Mayi Tuz", date: "Temmuz 2020" },
-      { id: 6, img: img2, title: "Sjorinn", date: "Temmuz 2020" },
-      { id: 7, img: img3, title: "Sjorinn", date: "Temmuz 2020" },
-      { id: 8, img: img4, title: "Sjorinn", date: "Temmuz 2020" },
-      { id: 9, img: img1, title: "Sjorinn", date: "Temmuz 2020" },
-      { id: 10, img: img2, title: "Sjorinn", date: "Temmuz 2020" },
-      // { id:6, img:"img6" , title:"Some quick example text to build on the card title and make up the bulk of the card's content."},
-      // { id:7, img:"img7" , title:"Some quick example text to build on the card title and make up the bulk of the card's content."}
+      { id: 5, img: img5, title: "Mayi Tuz", date: "Şubat 2020" },
+      { id: 6, img: img6, title: "Gastrono Metro", date: "Ocak 2020" },
+      { id: 7, img: img7, title: "Kombucha 2200", date: "Aralık 2019" },
+      { id: 8, img: img8, title: "La Fabrika", date: "Kasım 2019" },
+      { id: 9, img: img9, title: "Livetobloom", date: "Ekim 2019" },
+      { id: 10, img: img10, title: "Mayi Tuz", date: "Temmuz 2019" },
+      { id: 12, img: img12, title: "Po Juicery", date: "Ocak 2019" },
+      { id: 11, img: img11, title: "Metro", date: "Mayıs 2019" },
+      { id: 13, img: img13, title: "Livetobloom", date: "Eylül 2018" },
+      { id: 14, img: img14, title: "Metro", date: "Haziran 2018" },
+      { id: 15, img: img15, title: "Po Juicery", date: "Mart 2018" },
+      { id: 16, img: img16, title: "Mayi Tuz", date: "Ocak 2018" },
+      { id: 17, img: img17, title: "La Fabrika", date: "Ekim 2017" },
+      { id: 18, img: img18, title: "Kombucha 2200", date: "Eylül 2017" },
+      { id: 19, img: img19, title: "Gastrono Metro", date: "Ağustos 2017" },
+
     ],
   };
 

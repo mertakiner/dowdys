@@ -69,6 +69,8 @@ class Main extends Component {
           <img src={hakkinda} className="card-img-top" alt="..." />
           <p className="card-text text-center">Neriman Demirci ve Hande Akıner</p>
         </div>
+        {/* İletişim */}
+        <a href="https://mert547680.typeform.com/to/JbkIG9qp" class="btn btn-dark btn-lg active btn-block button" role="button" aria-pressed="true">Bizimle iletişime geçmek için tıklayınız.</a>    
       </div>
     );
   }
